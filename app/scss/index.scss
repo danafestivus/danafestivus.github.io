@@ -3,6 +3,8 @@ $color-background: #ffdbdb;
 $color-blue: #2303cf;
 $color-white: #fff;
 
+$gutter: 45px;
+
 /* =======================================================
 Font Face
 ======================================================= */
@@ -63,9 +65,17 @@ Navigation
 Hero
 ======================================================= */
 
+.background-wrapper {
+  background: url('../images/image-1.svg') no-repeat center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: $gutter;
+}
+
 .content-container {
-  position: absolute;
-  top: 45%;
+  display: block;
+  padding-top: $gutter * 3.5;
+  padding-left: $gutter * 2.5;
 }
 
 .hero-header {
@@ -80,9 +90,30 @@ Hero
   width: 450px;
 }
 
-.background-wrapper {
-  background: url('../images/image-1.svg') no-repeat center;
-  height: 800px;
-  width: 100%;
-  padding-left: 120px;
+/* =======================================================
+Button
+======================================================= */
+
+.button-wrapper {
+  text-align: center;
+  margin-bottom: $gutter;
+  height: 80px;
+
+  button {
+    height: 80px;
+    width: 240px;
+    display: inline-block;
+    background: transparent;
+  }
+}
+
+.accept {
+  border: 5px solid $color-blue;
+  font-size: 25px;
+}
+
+.decline {
+  border: 0;
+  font-size: 17px;
+  transform: translateY(-4px);
 }

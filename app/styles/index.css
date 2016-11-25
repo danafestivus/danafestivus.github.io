@@ -48,9 +48,16 @@ Navigation
 /* =======================================================
 Hero
 ======================================================= */
+.background-wrapper {
+  background: url("../images/image-1.svg") no-repeat center;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 45px; }
+
 .content-container {
-  position: absolute;
-  top: 45%; }
+  display: block;
+  padding-top: 157.5px;
+  padding-left: 112.5px; }
 
 .hero-header {
   color: #fff;
@@ -62,8 +69,24 @@ Hero
   font-size: 30px;
   width: 450px; }
 
-.background-wrapper {
-  background: url("../images/image-1.svg") no-repeat center;
-  height: 800px;
-  width: 100%;
-  padding-left: 120px; }
+/* =======================================================
+Button
+======================================================= */
+.button-wrapper {
+  text-align: center;
+  margin-bottom: 45px;
+  height: 80px; }
+  .button-wrapper button {
+    height: 80px;
+    width: 240px;
+    display: inline-block;
+    background: transparent; }
+
+.accept {
+  border: 5px solid #2303cf;
+  font-size: 25px; }
+
+.decline {
+  border: 0;
+  font-size: 17px;
+  transform: translateY(-4px); }
