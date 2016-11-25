@@ -1,0 +1,69 @@
+/* =======================================================
+Font Face
+======================================================= */
+@font-face {
+  font-family: 'YoungSerif';
+  font-weight: normal;
+  src: url("fonts/YoungSerif-Regular.otf"); }
+
+@font-face {
+  font-family: 'Graphik';
+  font-weight: normal;
+  src: url("fonts/Graphik-Regular.otf"); }
+
+@font-face {
+  font-family: 'Graphik';
+  font-weight: bolder;
+  src: url("fonts/Graphik-Medium.otf"); }
+
+@font-face {
+  font-family: 'Graphik';
+  font-weight: bold;
+  src: url("fonts/Graphik-Semibold.otf"); }
+
+/* =======================================================
+Global
+======================================================= */
+body {
+  font-family: 'Graphik';
+  font-weight: normal;
+  background-color: #ffdbdb;
+  margin: 0;
+  padding: 0; }
+
+/* =======================================================
+Navigation
+======================================================= */
+.nav-wrapper {
+  text-align: center;
+  padding-bottom: 45px;
+  padding-top: 45px; }
+
+.nav-title {
+  color: #2303cf;
+  font-size: 24px;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #fff; }
+
+/* =======================================================
+Hero
+======================================================= */
+.content-container {
+  position: absolute;
+  top: 45%; }
+
+.hero-header {
+  color: #fff;
+  font-size: 144px; }
+
+.hero-content {
+  color: #fff;
+  padding-left: 14px;
+  font-size: 30px;
+  width: 450px; }
+
+.background-wrapper {
+  background: url("../images/image-1.svg") no-repeat center;
+  height: 800px;
+  width: 100%;
+  padding-left: 120px; }
