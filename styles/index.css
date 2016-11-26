@@ -70,10 +70,9 @@ Hero
 
 .hero-header {
   width: 95%;
-  font-size: 150px; }
+  font-size: 140px; }
 
 .hero-content {
-  margin-top: 50px;
   padding-left: 14px;
   font-size: 30px;
   width: 40%; }
@@ -96,10 +95,14 @@ Button
   width: 290px;
   border: 7px solid #2303cf;
   font-size: 30px;
-  font-weight: bold; }
+  font-weight: bold;
+  cursor: pointer; }
 
 .decline {
   border: 0;
   width: 290px;
   color: #fff;
   font-size: 25px; }
+
+.not-interested-text {
+  cursor: pointer; }
