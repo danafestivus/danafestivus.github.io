@@ -40,6 +40,33 @@ body {
     content: url("../images/image-2.svg") url("../images/image-3.svg"); }
 
 /* =======================================================
+Utility classes
+======================================================= */
+@media screen and (min-width: 0) and (max-width: 46.8125em) {
+  .hide--mobile {
+    display: none; } }
+
+@media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
+  .hide--tablet {
+    display: none; } }
+
+@media screen and (min-width: 61.875em) {
+  .hide--desktop {
+    display: none; } }
+
+@media screen and (min-width: 46.875em) {
+  .display--mobile {
+    display: none; } }
+
+@media screen and (min-width: 61.875em) {
+  .display--tablet {
+    display: none; } }
+
+@media screen and (min-width: 0) and (max-width: 46.8125em) {
+  .display--tablet {
+    display: none; } }
+
+/* =======================================================
 Navigation
 ======================================================= */
 .nav-wrapper {
@@ -57,25 +84,54 @@ Navigation
 /* =======================================================
 Hero
 ======================================================= */
-.background-wrapper {
-  background: url("../images/image-1.svg") no-repeat center;
-  min-height: 800px;
-  width: 100%;
-  margin-bottom: 45px; }
+@media screen and (min-width: 61.875em) {
+  .background-wrapper {
+    background: url("../images/image-1.svg") no-repeat center;
+    min-height: 800px;
+    width: 100%;
+    margin-bottom: 45px; } }
+
+@media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
+  .background-wrapper {
+    background: url("../images/image-1.svg") no-repeat center;
+    min-height: 800px;
+    width: 100%;
+    margin-bottom: 45px; } }
 
 .content-container {
-  color: #fff;
-  padding-top: 157.5px;
-  padding-left: 112.5px; }
+  color: #fff; }
+  @media screen and (min-width: 61.875em) {
+    .content-container {
+      padding-left: 112.5px;
+      padding-top: 78.75px; } }
+  @media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
+    .content-container {
+      padding-left: 45px;
+      padding-top: 123.75px; } }
 
 .hero-header {
   width: 95%;
-  font-size: 140px; }
+  margin-bottom: 0; }
+  @media screen and (min-width: 61.875em) {
+    .hero-header {
+      font-size: 150px; } }
+  @media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
+    .hero-header {
+      font-size: 100px; } }
 
-.hero-content {
-  padding-left: 14px;
-  font-size: 30px;
-  width: 40%; }
+@media screen and (min-width: 61.875em) {
+  .hero-content {
+    padding-top: 22.5px;
+    padding-left: 14px;
+    font-size: 30px;
+    width: 40%; } }
+
+@media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
+  .hero-content {
+    padding-top: 101.25px;
+    padding-left: 10px;
+    font-size: 30px;
+    width: 60%; } }
 
 /* =======================================================
 Button
