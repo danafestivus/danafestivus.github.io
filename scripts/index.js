@@ -7,6 +7,13 @@ window.onload = (function(){
   };
 })();
 
+function showSchedule() {
+  var schedule = document.getElementsByClassName("schedule-container")[0],
+      buttonWrapper = document.getElementsByClassName("button-wrapper")[0];
+  buttonWrapper.style.display = "none";
+  schedule.style.display = "block";
+}
+
 function neutral() {
   targetBackground.style.background = "url('../images/image-1.svg') no-repeat center";
 }

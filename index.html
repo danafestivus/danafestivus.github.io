@@ -8,9 +8,9 @@
   </head>
 
   <body>
-    <div class="nav-wrapper">
+    <nav class="nav-wrapper">
       <span class="nav-title">Festivus '16</span>
-    </div>
+    </nav>
 
     <div class="background-wrapper hide--mobile">
       <div class="content-container">
@@ -19,14 +19,60 @@
           You are courtly invited to spend Festivus '16 with Milk on December 22,
           2016.
         </p>
+        <p class="floating-content">A festivus for the both of us</p>
+      </div>
+    </div>
+
+    <div class="mobile-hero-container display--mobile">
+      <div class="content-container">
+        <h1 class="hero-header">Happy Festivus, Dana</h1>
+        <img src="../images/image-1.svg">
+        <p class="hero-content">
+          You are courtly invited to spend Festivus '16 with Milk on December 22,
+          2016.
+        </p>
       </div>
     </div>
 
     <div class="button-wrapper">
-      <button class="accept" onmouseover="accept()" onmouseout="neutral()">Attend</button>
+      <button class="accept" onclick="showSchedule()" onmouseover="accept()" onmouseout="neutral()">Attend</button>
       <button class="decline" onmouseover="decline()" onmouseout="neutral()">
         <span class="not-interested-text">Not Interested</span>
       </button>
+    </div>
+
+    <div class="schedule-container">
+      <p class="miracle-content">The festivus miracle</p>
+
+      <div class="row">
+        <div class="activity">Collect a kiss and tell Milk about your day</div>
+        <div class="time">6:00pm</div>
+        <div class="location">Milk's Livingroom</div>
+      </div>
+
+      <div class="row">
+        <div class="activity">Enjoy Wine and Charcuterie</div>
+        <div class="time">6:15pm</div>
+        <div class="location">Milk's Livingroom</div>
+      </div>
+
+      <div class="row">
+        <div class="activity">Open gifts</div>
+        <div class="time"> - </div>
+        <div class="location">Milk's Livingroom</div>
+      </div>
+
+      <div class="row">
+        <div class="activity">Dinner</div>
+        <div class="time">8:00pm</div>
+        <div class="location">Dandylion Toronto</div>
+      </div>
+
+      <div class="row">
+        <div class="activity">Cocktails</div>
+        <div class="time">10:00pm</div>
+        <div class="location">Cocktail Bar</div>
+      </div>
     </div>
 
   </body>
