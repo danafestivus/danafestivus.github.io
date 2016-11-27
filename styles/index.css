@@ -174,7 +174,8 @@ Button
   .button-wrapper button {
     height: 100px;
     display: inline-block;
-    background: transparent; }
+    background: transparent;
+    outline: none; }
 
 .accept {
   color: #2303cf;
@@ -209,9 +210,9 @@ Table
   border-bottom: 1px solid #fff; }
   .row .activity {
     display: inline-block;
-    font-size: 23px;
+    font-size: 22px;
     font-weight: bold;
-    width: 50%;
+    width: 55%;
     margin-right: 30px;
     float: left; }
   .row .time {
