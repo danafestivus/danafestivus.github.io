@@ -196,6 +196,7 @@ Button
   text-decoration: line-through; }
 
 .not-interested-text {
+  cursor: pointer;
   color: #fff; }
 
 /* =======================================================
@@ -214,8 +215,7 @@ Invitation
     font-weight: 100; }
   .invitation-wrapper .event-date {
     border-bottom: 7px solid #fff;
-    padding-bottom: 3px;
-    cursor: pointer; }
+    padding-bottom: 3px; }
 
 /* =======================================================
 Table
