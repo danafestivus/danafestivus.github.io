@@ -35,10 +35,19 @@
     </div>
 
     <div class="button-wrapper">
-      <button class="accept" onclick="showSchedule()" onmouseover="accept()" onmouseout="neutral()">Attend</button>
+      <button class="accept" onclick="showInvitation()" onmouseover="accept()" onmouseout="neutral()">Attend</button>
       <button class="decline" onmouseover="decline()" onmouseout="neutral()">
-        <span class="not-interested-text">Not Interested</span>
+        <span class="decline-wrapper">
+          <span class="not-interested-text">Not Interested</span>
+        </span>
       </button>
+    </div>
+
+    <div class="invitation-wrapper">
+      <h2 class="invitation">
+        It's a Festivus miracle! Return to this <br>  page <span onclick="showSchedule()" class="event-date">December 21</span>
+        to find out more.
+      </h2>
     </div>
 
     <div class="schedule-container">
@@ -68,7 +77,7 @@
         <div class="location">Dandylion Toronto</div>
       </div>
 
-      <div class="row">
+      <div class="row row-no-border">
         <div class="activity">Cocktails</div>
         <div class="time">10:00pm</div>
         <div class="location">Cocktail Bar</div>

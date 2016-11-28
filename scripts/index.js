@@ -1,17 +1,28 @@
 
-var targetBackground = '';
+var targetBackground = '',
+    schedule = '',
+    buttonWrapper = '',
+    invitation = '';
 
 window.onload = (function(){
   return function() {
     targetBackground = document.getElementsByClassName("background-wrapper")[0];
+    schedule = document.getElementsByClassName("schedule-container")[0];
+    buttonWrapper = document.getElementsByClassName("button-wrapper")[0];
+    invitation = document.getElementsByClassName("invitation-wrapper")[0];
   };
 })();
 
 function showSchedule() {
-  var schedule = document.getElementsByClassName("schedule-container")[0],
-      buttonWrapper = document.getElementsByClassName("button-wrapper")[0];
   buttonWrapper.style.display = "none";
+  invitation.style.display = "none";
   schedule.style.display = "block";
+}
+
+function showInvitation() {
+  buttonWrapper.style.display = "none";
+  schedule.style.display = "none";
+  invitation.style.display = "block";
 }
 
 function neutral() {
