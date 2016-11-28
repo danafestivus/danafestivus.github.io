@@ -131,7 +131,8 @@ Hero
   .hero-content {
     padding-top: 22.5px;
     padding-left: 14px;
-    font-size: 37px;
+    font-size: 32px;
+    line-height: 42px;
     width: 36%; } }
 
 @media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
@@ -189,7 +190,7 @@ Button
   border: 0;
   width: 290px;
   color: #ff7474;
-  font-size: 25px; }
+  font-size: 28px; }
 
 .decline-wrapper:hover {
   text-decoration: line-through; }
@@ -207,10 +208,11 @@ Invitation
   margin: 0 auto;
   text-align: center;
   color: #2303cf;
-  font-weight: bold;
   font-size: 24px;
   line-height: 45px;
   margin-bottom: 135px; }
+  .invitation-wrapper .invitation {
+    font-weight: 100; }
   .invitation-wrapper .event-date {
     border-bottom: 7px solid #fff;
     padding-bottom: 3px;
@@ -232,7 +234,7 @@ Table
   border-bottom: 1px solid #fff; }
   .row .activity {
     display: inline-block;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     width: 55%;
     margin-right: 30px;
